@@ -105,5 +105,12 @@ a{
      height: 50px;
      padding: 100px;
 }
+footer{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    height: 150px;
+    margin: 20px;
+}
  
  

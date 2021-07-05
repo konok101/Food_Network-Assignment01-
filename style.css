@@ -1,0 +1,48 @@
+font-family: 'Oswald', sans-serif;
+ 
+ h1{
+     font-size: 50px;
+      
+ }
+.orang{
+    color: orange
+}
+
+.button{
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+     
+    border-radius: 5px;
+    background-image: linear-gradient(red, yellow);
+}
+a{
+     text-decoration: none;
+}
+ .top{
+    display: flex;
+     
+}
+div{
+    width: 50%;
+    padding: 20px;
+}
+.half-skip{
+    padding-top:  60px;
+    margin-left: 40px;
+    
+
+}
+img{
+    width: 55%;
+    padding-right: 70px;
+}
+.mid-background{
+     margin: 0%;
+     width: 101%;
+    background-image: url(images/7.png);
+}
+.mid-about{
+    margin-top: 40px;
+}
+ 

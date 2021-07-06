@@ -1,21 +1,52 @@
 font-family: 'Oswald', sans-serif;
- 
+
+li {
+    float: right;
+    margin-right: 60px;
+    
+    list-style: none;
+    
+  }
+  .bar-display{
+      display: flex;
+  }
+  
+  a {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px;
+    background-color: orange;
+  }
+  ul {
+      list-style: none;
+      width: 30px
+     
+  }
  
  h1{
      font-size: 50px;
       
  }
+ .marque{
+     background-color:black;
+     border-radius: 10px;
+     color:  whitesmoke;
+ }
+
 .orang{
     color: orange
 }
 
 .button{
-    color: white;
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange,rgb(243, 49, 15));
+    color:white;
     font-weight: 700;
-    padding: 10px;
-     
-    border-radius: 5px;
-    background-image: linear-gradient(red, yellow);
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px 5px pink  
 }
 a{
      text-decoration: none;
@@ -88,10 +119,53 @@ a{
   
 }
 .recipe-border{
-     background-color: gainsboro;
+     
     margin: 15px;
+    box-shadow: 10px 10px 40px grey;
     border-radius: 12px;
 }
+.recipe-border p{
+    margin-left: 10px;
+}
+.recipe-border h2{
+    margin-left: 10px;
+}
+.order-img{
+    
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.order-img img{
+    margin-right: 100px;
+    margin-top: 60px;
+    width: 400px;
+    height: 350px
+}
+.order-part{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: aliceblue;
+    margin: 39px;
+    display: flex;
+}
+.half-order{
+    padding: 30px;
+    margin: 50px;
+    margin-left: 50px;
+}
+
+.half-order h1{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+
+
+
+
+
+
  
 .rank-border{
      margin-left: 90px;
@@ -106,14 +180,16 @@ a{
 }
 .rank{
     display: flex;
-    background-color: rgb(250, 235, 215);
+    
+    box-shadow: 10px 10px 40px grey;
     font-size: 30px;
     border: 1px solid gainsboro;
      width: 70%;
      border-radius: 5px;
-     margin-left: 90px;
+     margin-left: 170px;
      height: 50px;
-     padding: 100px;
+     margin-bottom: 5px;
+     padding-top: 100px;
 }
 footer{
     background-color: black;

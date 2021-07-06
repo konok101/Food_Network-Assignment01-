@@ -1,6 +1,6 @@
 font-family: 'Oswald', sans-serif;
 
-li {
+li{
     float: right;
     margin-right: 60px;
     
@@ -11,7 +11,7 @@ li {
       display: flex;
   }
   
-  a {
+  a{
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
@@ -92,8 +92,7 @@ a{
     padding-top: 30px;
     
 }  
-     
- 
+      
 .recipe-menu{
     margin: 10px;
     margin-left: 100px;
@@ -160,13 +159,26 @@ a{
 .red{
     color: red;
 }
+.nagod-img{
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.nagod-img img{
+    margin-right: 100px;
+    margin-top: 60px;
+    width: 400px;
+    height: 350px
+}
+#delivery-img img{
+    height: 400px;
+    margin-right: 40px;
+    margin-top: 300px;
 
-
-
-
-
-
- 
+}
+#deliver-two h3{
+     text-align: center;
+}
 .rank-border{
      margin-left: 90px;
     margin-right: 50px;
